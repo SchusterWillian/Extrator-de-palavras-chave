@@ -1,4 +1,4 @@
-import { PALAVRAS_RUINS } from "./PalavrasRuins.js";
+import { PALAVRAS_RUINS } from "./palavrasRuins.js";
 
 const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
 
@@ -9,7 +9,7 @@ function mostraPalavrasChave() {
     const campoResultado = document.querySelector('#resultado-palavrachave');
     const palavrasChave = processaTexto(texto);
 
-    campoResultado.textContent = PalavrasChave.join(", ");
+    campoResultado.textContent = palavrasChave.join(", ");
 }
 
 function processaTexto(texto) {
